@@ -2,27 +2,27 @@ import React from "react";
 
 const Nav = () => {
     return (
-        <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#" style={{color:'white'}}>Navbar</a>
+        <nav className="navbar bg-dark navbar-expand-lg bg-body-tertiary">
+            <div className="container-fluid" style={{maxWidth:'1300px'}}>
+                <a className="navbar-brand" href="#" style={{color:'white'}}>Start Boostrap</a>
                 <div id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#" style={{color:'white'}}>Home</a>
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="#" style={{color:'white'}}>Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" style={{color:'white'}}>Features</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#" style={{color:'white'}}>About</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" style={{color:'white'}}>Pricing</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#" style={{color:'white'}}>Services</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true" style={{color:'white'}}>Disabled</a>
+                        <li className="nav-item">
+                            <a className="nav-link disabled" aria-disabled="true" style={{color:'white'}}>contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
-        1</nav>
+        </nav>
     );
 };
 
